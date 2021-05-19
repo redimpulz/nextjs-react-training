@@ -5,7 +5,7 @@ type Props = {
   name: string;
 };
 
-// ジェネリックでpropsの型定義を指定
+// ジェネリックスでpropsの型定義を指定
 const HelloMessage: React.FC<Props> = (props) => <div>Hello {props.name}</div>;
 
 export default function Index() {
